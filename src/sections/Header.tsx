@@ -3,7 +3,7 @@ import MenuIcon from '../assets/menu.svg'
 
 export const Header = () => {
   return (
-    <header className="sticky top-0">
+    <header className="sticky top-0 backdrop-blur-sm z-20">
       <div className="flex justify-center items-center py-3 bg-black text-white text-sm gap-3">
         <p className="text-white/60 hidden md:block">Streamline your Ads campaign and boost your productivity</p>
         <div className="inline-flex gap-1 items-center">
@@ -16,7 +16,7 @@ export const Header = () => {
             <div className="flex items-center justify-between">
           <h1
             aria-label="logo"
-            className="text-2xl font-bold text-transparent bg-clip-text text-neutral-950 mt-5 mb-3"
+            className="text-2xl font-bold text-transparent bg-clip-text text-neutral-950 mt-3 mb-1"
             >
             Hiprofeet.ng
           </h1>
@@ -27,7 +27,7 @@ export const Header = () => {
             <a href="#">Customers</a>
             <a href="#">Blog</a>
             <a href="#">Help</a>
-            <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">Get Started</button>
+            <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight">Get Started</button>
           </nav>
             </div>
         </div>
